@@ -1,0 +1,60 @@
+.header {
+    position: relative;
+    z-index: 2;
+    padding: 0;
+    margin: 0;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    gap: 59.8rem;
+}
+
+.header__logo-img {
+    margin: 6rem 0 30.6rem 16.2rem;
+    width: 25.8rem;
+    height: 5.3rem;
+}
+
+.header__menu {
+    display: flex;
+    gap: 5rem;
+    height: 100%;
+    padding: 7.7rem 16.2rem 0 14rem;
+}
+
+.header__icon {
+    position: relative;
+    z-index: 2;
+    width: auto;
+    height: 2.5rem;
+}
+
+.header__basket-link {
+    display: flex;
+    gap: 1rem;
+}
+
+.header__menu-button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin-left: 6rem;
+}
+
+.header__basket-count {
+    font-family: 'Futura';
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: var(--color-text--white);
+}
+
+.header__moon {
+    position: relative;
+    top: 0rem;
+    left: 8.2rem;
+}

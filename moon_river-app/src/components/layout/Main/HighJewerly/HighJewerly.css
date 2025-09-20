@@ -1,0 +1,92 @@
+.high-jewerly__container {
+    display: flex;
+    gap:48.5rem;
+}
+.high-jewerly__inf {
+    background: none;
+    z-index:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.high-jewerly__title {
+    margin-right: 68.3rem;
+    font-family: 'Forum';
+    background: none;
+    z-index:1;
+    font-weight: 400;
+    font-size: 6.4rem;
+    line-height: 100%;
+    letter-spacing: 3%;
+    vertical-align: middle;
+}
+.high-jewerly__image {
+    background: none;
+    z-index:1;
+    width: 13rem;
+}
+.cartier {
+    position:relative;
+    z-index:2;
+    margin:-20rem 22.5rem 0 73.1rem;
+    width: 32.2rem;
+}
+.high-jewerly__link-line {
+    display: flex;
+    gap:3.8rem;
+    margin-right: 80.3rem;
+    margin-left: 12.9rem;
+
+}
+.high-jewerly__link {
+    position: relative;
+    z-index:2;
+    font-family: 'SegoeUI';
+    font-weight: 300;
+    font-size: 1.8rem;
+    color: var(--background-color--two);
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    white-space: nowrap;
+
+}
+.product {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end; 
+    flex-direction: column;
+    color: var(--color-text--white);
+    padding: 7.7rem 16.2rem 0 0;
+}
+.product__name {
+    font-family: 'Futura';
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 100%;
+    letter-spacing: 5%;
+    text-align: right;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: var(--color-text--white);
+}
+.product__material {
+    font-family: 'Futura';
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: right;
+    vertical-align: middle;
+    color: var(--color-of-materials);
+}
+.product__price {
+    font-family: 'SegoeUI';
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 100%;
+    letter-spacing: 3%;
+    vertical-align: middle;
+    color: var(--price-color);
+}
